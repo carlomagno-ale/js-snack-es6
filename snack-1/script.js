@@ -22,6 +22,8 @@ const bike = [
     }
 ];
 
+console.log(bike)
+
 let lightBike = bike[0]
 
 for (let i = 0; i < bike.length; i++) {
