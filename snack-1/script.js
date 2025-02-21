@@ -37,3 +37,7 @@ for (let i = 0; i < bike.length; i++) {
 }
 
 console.log(`La bici più leggera è la ${lightBike.name} con un peso di ${lightBike.weight}Kg`)
+
+const resultWinner = document.getElementById('result')
+
+resultWinner.innerHTML = `La bici più leggera è la <b>${lightBike.name}</b> con un peso di <b>${lightBike.weight}Kg</b>`
