@@ -20,4 +20,18 @@ const bike = [
         name: 'Tandem',
         weight: 20
     }
-]
+];
+
+let lightBike = bike[0]
+
+for (let i = 0; i < bike.length; i++) {
+    const weightBike = bike[i].weight;
+
+    if(weightBike < lightBike.weight){
+        lightBike = bike[i]
+        console.log(lightBike)
+    }
+
+}
+
+console.log(`La bici più leggera è la ${lightBike.name} con un peso di ${lightBike.weight}Kg`)
